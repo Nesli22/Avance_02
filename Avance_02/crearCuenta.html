@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+    <form class="formularioCC">
+        <section class="frmCC">
+            <h1>Registro</h1>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo">
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena">
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+
+            <label for="avatar">Avatar:</label>
+            <input type="file" id="avatar" name="avatar" accept="image/*">
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad">
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+            <label for="tipo">Tipo de usuario:</label>
+            <select id="tipo" name="tipo">
+                <option value="normal">Normal</option>
+                <option value="administrador">Administrador</option>
+            </select>
+
+            <button type="submit" id="btnRegistrar" class="button">Registrarse</button>
+            <button type="submit" id="btnRegistrar" class="button">Volver</button>
+        </section>
+    </form>
+
+</body>
+
+</html>
